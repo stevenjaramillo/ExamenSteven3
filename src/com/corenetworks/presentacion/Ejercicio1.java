@@ -1,3 +1,5 @@
+package com.corenetworks.presentacion;
+
 public class Ejercicio1 {
     public static void main(String[] args) {
         // 1) Realizar codigo para mostrar por consola la IP Clase C 192.168.2.
@@ -10,8 +12,8 @@ public class Ejercicio1 {
         numeros [3] = 0;
         int mascara = 255;
 
-        for (int i = 0; i<mascara ; i++){
-            System.out.println(numeros [3] + mascara);
+        for (int i = 0; i<255 ; i++){
+            System.out.println(numeros [0]+"."+ numeros[1] +"." + numeros[2] +"."+ i);
         }
 
 
